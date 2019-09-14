@@ -167,7 +167,7 @@ bot.on('message', async message => {
                   .setColor(0x5aa9fe)
                   .setTitle(`Insertion`)
                   .setDescription(`Inserted and updated **\`${userArray[i].toLowerCase()}\`**'s profile within my database!`)
-                await message.channel.send(embed);
+                await message.channel.send(embed).then(message => message.delete(5000));
                 var auditLogEmbed = new Discord.RichEmbed()
                   .setColor(0xff793b)
                   .setTitle(`**Add**`)
