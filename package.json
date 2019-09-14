@@ -1,0 +1,24 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "code.js",
+  "dependencies": {
+    "bloxy": "^2.9.9964",
+    "discord.js": "^11.5.1",
+    "firebase": "^6.3.4",
+    "noblox.js": "^4.2.6",
+    "snekfetch": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node code.js"
+  },
+  "engines": {
+  "node": "10.16.0",
+  "npm": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
