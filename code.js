@@ -7,7 +7,7 @@ const officerRoleE = "Officer";
 const welcomeMessage = "Hi there, welcome to our official communication hub!";
 const maxXP = 15;
 const xpAuditLogChannelID = "435191714601369601";
-const mainChatChannelID = "500871853477462026";
+const mainChatChannelID = "488509048262623252";
 const fireBaseURL = process.env.fireBaseURL;
 const xpName = "xp";
 /* SETTINGS END */
