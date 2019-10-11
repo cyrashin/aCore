@@ -90,7 +90,7 @@ bot.on('message', async message => {
     const goodMessage = new Discord.RichEmbed()
     .setColor(0x3eff97)
     .setTitle(`Verification`)
-    .setDescription(`Profile: https://web.roblox.com/users/${body.Id}/profile\n\nReplace your current status with: **${token}**\n\n\n` + "**Chat `done` in __here__ to me when you've changed your status successfully!**")
+    .setDescription(`Profile: https://web.roblox.com/users/${body.Id}/profile\n\nThis verify function does not work with the Aegis Bot.\n\n\n` + "Please use **-verify** in the proper channel in the Aegis Discord to verify. Thank you!")
 
     const location = await message.author.send(goodMessage).then(msg => msg.channel).catch(() => {
       return message.channel.send(`Sorry ${message.author}, but I couldn't direct message you!`).then(message => message.delete(5000));
